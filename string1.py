@@ -24,6 +24,7 @@
 # So donuts(5) returns 'Number of donuts: 5'
 # and donuts(23) returns 'Number of donuts: many'
 def donuts(count):
+    """This thing counts donuts"""
     if(count >= 10):
         return "Number of donuts: many"
     else:
@@ -38,6 +39,7 @@ def donuts(count):
 # so 'spring' yields 'spng'. However, if the string length
 # is less than 2, return instead the empty string.
 def both_ends(s):
+    """this function return the first and last 2 chars of the string"""
     if(len(s) == 1):
         return ''
     beg = s[:2]
